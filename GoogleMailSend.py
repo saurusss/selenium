@@ -2,7 +2,11 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.action_chains import ActionChains
 import time
+<<<<<<< HEAD
 driver = webdriver.Chrome(r'D:\AP\Selenium\chromedriver.exe')
+=======
+driver = webdriver.Chrome('e:\AP\Selenium\chromedriver.exe')
+>>>>>>> 8de218e20492f3330051e0be2539403806dcc7c8
 url = 'https://google.com'
 driver.get(url)
 driver.maximize_window()   
@@ -16,7 +20,11 @@ driver.find_element_by_css_selector('.BHzsHc').click()
 
 driver.find_element_by_css_selector('.whsOnd zHQkBf').send_keys('saurusss')
 driver.find_element_by_css_selector('.VfPpkd-RLmnJb').click()
+<<<<<<< HEAD
 driver.find_element_by_css_selector('.whsOnd zHQkBf').send_keys('passpass')
+=======
+driver.find_element_by_css_selector('.whsOnd zHQkBf').send_keys('didakf12g,')
+>>>>>>> 8de218e20492f3330051e0be2539403806dcc7c8
 driver.find_element_by_css_selector('.VfPpkd-RLmnJb').click()
 driver.get('https://mail.google.com/mail/u/0/?ogbl#inbox')
 time.sleep(2)
